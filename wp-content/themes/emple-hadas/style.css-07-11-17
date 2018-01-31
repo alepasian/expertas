@@ -1,0 +1,108 @@
+/*
+Theme Name: Emple-Hadas
+Theme URI: 
+Author: Guillermo Obregón
+Author URI: http://solucionessid.com/
+Description: The 2017 theme for Emple-Hadas takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+Tags: pink, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
+
+@font-face {
+  font-family: 'BalooTammudu-Regular';
+  src: url('fonts/BalooTammudu-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/BalooTammudu-Regular.woff') format('woff'), url('fonts/BalooTammudu-Regular.ttf')  format('truetype'), url('fonts/BalooTammudu-Regular.svg#BalooTammudu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+	font-family: 'BalooTammudu-Regular'; 
+}
+
+.featured-img{
+	background: url(images/img-inicio-EmpleHadas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 403px;
+}
+
+.consulta-disparador{
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 45px;
+    color: #FFF;
+}
+
+.btn-primary.active,
+.btn-primary.active:hover{
+	padding: 5px 10px;
+	background-color: #B8005F;
+	border: none; 
+	width: 250px;
+	border-radius: none;
+}
+
+.como-funciona{
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 37px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.block-pasos img,
+.block-pasos span {
+	margin: 0 auto;
+	display: block;
+}
+
+.block-pasos span,
+.block-pasos p{
+	text-align: center;
+	margin-top: 27px;
+}
+
+.boton-comenzar-ahora{
+	margin: 10% 0 10% 0;
+}
+
+.navbar-default{
+	background: none;
+    border: none;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+/* Footer */
+.footer{
+    background: #000;
+    padding: 30px 0 20px 0;
+}
+
+.footer .title-block{
+	text-transform: uppercase;
+	color: #FFF;
+	margin-bottom: 15px;
+}
+
+.footer ul{
+	list-style: none;
+	color: #FFF;
+	padding: 0;
+}
+.footer ul a{
+	color: #FFF;
+
+}
+
+.footer ul.info-contacto li{
+	padding-bottom: 25px; 
+	display: block; 
+}
+
+
